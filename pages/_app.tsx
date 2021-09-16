@@ -2,7 +2,7 @@ import '../styles/index.css'
 import React from 'react'
 import App from 'next/app'
 import NProgressHandler from 'components/NProgressHandler'
-import Header from 'components/Header'
+import Head from 'next/head'
 import Footer from 'components/Footer'
 
 class MyApp extends App {
@@ -12,13 +12,28 @@ class MyApp extends App {
     return (
       <div className="flex min-h-screen flex-col justify-between">
         <NProgressHandler />
-        <main>
-          <Header />
-          <div className="max-w-3xl mx-auto py-20">
+        <Head>
+          <title>
+            Port Mananager for Mac - Manage ports from your menu bar
+          </title>
+          <meta
+            property="og:title"
+            content="Port Mananager for Mac - Manage ports from your menu bar"
+          />
+          <meta
+            name="description"
+            content="Port Mananager for Mac - Manage ports from your menu bar"
+          />
+          <meta property="og:image" content="/img/logo.png" />
+        </Head>
+        <main className="flex flex-col relative">
+          <div>
             <Component {...pageProps} />
           </div>
+          <div className="bg-primary h-60 flex justify-center items-center">
+            <Footer />
+          </div>
         </main>
-        <Footer />
       </div>
     )
   }
