@@ -11,13 +11,13 @@ import React from 'react'
 const App = () => {
   return (
     <>
-      <div className="gradient">
+      <div className="gradient bg-no-repeat w-screen overflow-hidden">
         <HeroSection />
         <FeatureSection />
       </div>
       <TimelineSection />
       <ProductIntroSection />
-      <div className="bg-white w-full h-5 absolute" />
+      <div className="bg-white w-full h-[22px] absolute shadow-md" />
       <div className="bg-blue-200">
         <ProductInfoSection />
         <GetProductSection />

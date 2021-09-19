@@ -9,12 +9,24 @@ module.exports = {
     extend: {
       fontFamily: {
         ...theme.fontFamily,
-        sans: ['KoHo', ...theme.fontFamily.sans],
+        sans: ['-apple-system, BlinkMacSystemFont', ...theme.fontFamily.sans],
+        mono: ['Consolas', ...theme.fontFamily.mono],
       },
       fontSize: {
-        base: '1.2rem',
-        xl: '1.3rem',
-        '5xl': '3rem',
+        0.8: '0.8rem',
+        '1.1em': '1.1em',
+        1.2: '1.2rem',
+        1.3: '1.3rem',
+        2.4: '2.4rem',
+        18: '18px',
+      },
+      lineHeight: {
+        1.2: '1.2',
+        1.4: '1.4',
+        1.6: '1.6',
+      },
+      height: {
+        'time-line': 'cal(100% - 3rem)',
       },
       colors: {
         primary: '#414D4D',
@@ -38,16 +50,30 @@ module.exports = {
   plugins: [
     plugin(({ addUtilities }) => {
       const newUltilities = {
-        '.container': {
-          maxWidth: 1064,
-        },
         '.gradient': {
           backgroundImage:
             'linear-gradient(0deg,rgba(255, 255, 255, 1) 0%,rgba(238, 249, 249, 1) 20%)',
-          backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center right',
-          width: 'auto',
-          overflow: 'hidden',
+        },
+        '.section': {
+          maxWidth: 1000,
+          margin: 'auto',
+          position: 'relative',
+        },
+        '.timeline_line': {
+          width: '1px',
+          height: 'calc(100% - 3rem)',
+          background: '#A4C1C0',
+          position: 'absolute',
+          top: '1rem',
+          zIndex: -1,
+        },
+        '.illustration': {
+          position: 'absolute',
+          left: '54%',
+          zIndex: 0,
+          top: '25%',
+          margin: 0,
         },
       }
 
