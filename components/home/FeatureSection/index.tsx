@@ -25,8 +25,11 @@ const features = [
 export const FeatureSection = () => {
   return (
     <section className="section flex flex-wrap p-8 md:max-w-[1064px]">
-      {features.map((feature) => (
-        <div className="pb-8 flex items-center md:w-6/12 md:pr-12 md:box-border">
+      {features.map((feature, index) => (
+        <div
+          key={index}
+          className="pb-8 flex items-center md:w-6/12 md:pr-12 md:box-border"
+        >
           <div className="h-10 w-10 bg-secondary mr-6 flex-shrink-0 flex items-center justify-center rounded-full">
             {feature.icon}
           </div>
