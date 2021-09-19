@@ -16,7 +16,7 @@ export const HeroSection = () => {
         <h2 className="text-black font-bold text-2.4 leading-1.2 md:text-[3rem] mt-4 mb-8 sm:mt-8 sm:mb-8">
           Manage ports from your menu bar.
         </h2>
-        <p className="text-1.2 leading-1.6 block text-primary my-[19.2px] md:my-4">
+        <p className="text-1.2 leading-1.6 block text-primary my-[19.2px]">
           Find, open and kill ports in a couple of clicks — so you can go back
           to writing code.
         </p>
