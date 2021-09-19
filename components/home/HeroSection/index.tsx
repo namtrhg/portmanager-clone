@@ -4,7 +4,7 @@ import { ReactComponent as PortIcon } from './svg/port.svg'
 export const HeroSection = () => {
   return (
     <section className="section pt-12 px-8 pb-8 md:p-0 md:pt-[144px] md:pb-[48px] md:max-w-[1064px] md:px-8">
-      <div className="relative md:w-1/2 md:m-0 md:bg-none">
+      <div className="relative md:w-1/2 md:mt-0 md:bg-none block antialiased">
         <div className="flex items-center text-18 h-[21px]">
           <div className="mr-2 self-end">
             <PortIcon className="text-primary" />
