@@ -38,10 +38,10 @@ class MyApp extends App {
         </Head>
         <main>
           <Component {...pageProps} />
+          <div className="bg-primary">
+            <Footer />
+          </div>
         </main>
-        <div className="bg-primary">
-          <Footer />
-        </div>
       </div>
     )
   }
