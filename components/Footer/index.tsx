@@ -3,7 +3,7 @@ import { ReactComponent as PortIcon } from './svg/port.svg'
 
 const Footer = () => {
   return (
-    <footer className="text-white text-center">
+    <footer className="text-white text-center md:h-[242px]">
       <section className="section p-8 md:max-w-[1064px] md:py-16">
         <div className="h-6 flex items-center">
           <PortIcon className="text-white mx-auto" />
