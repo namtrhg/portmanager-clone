@@ -17,7 +17,7 @@ const App = () => {
       </div>
       <TimelineSection />
       <ProductIntroSection />
-      <div className="bg-white w-full h-[22px] absolute shadow" />
+      <div className="bg-white w-full h-[22px] absolute shadow-b" />
       <div className="bg-blue-200">
         <ProductInfoSection />
         <GetProductSection />

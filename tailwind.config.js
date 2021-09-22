@@ -42,6 +42,9 @@ module.exports = {
           350: '#C0C0C0',
         },
       },
+      boxShadow: {
+        b: '0 4px 4px -2px #ddd',
+      },
     },
   },
   variants: {
