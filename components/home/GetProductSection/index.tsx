@@ -1,6 +1,6 @@
 export const GetProductSection = () => {
   return (
-    <section className="container mx-auto pt-16 pb-24 h-[265px]">
+    <section className="container mx-auto pt-16 pb-24 h-[264px]">
       <div className="flex flex-col justify-center items-center">
         <a
           className="p-4 my-4 h-14 text-white text-18 no-underline inline-block rounded font-semibold bg-black hover:bg-[#222] active:bg-[#111]"
