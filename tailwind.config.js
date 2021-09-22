@@ -10,7 +10,10 @@ module.exports = {
       fontFamily: {
         ...theme.fontFamily,
         sans: ['-apple-system, BlinkMacSystemFont', ...theme.fontFamily.sans],
-        mono: ['Consolas', ...theme.fontFamily.mono],
+        mono: [
+          'Consolas, ui-monospace, SFMono-Regular',
+          ...theme.fontFamily.mono,
+        ],
       },
       fontSize: {
         0.8: '0.8rem',
