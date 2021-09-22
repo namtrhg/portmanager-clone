@@ -6,7 +6,7 @@ export const TimelineSection = () => {
       </h3>
       <div className="md:relative">
         <div className="flex flex-wrap md:flex-nowrap md:items-center mb-8 text-[18px] last:mb-0">
-          <div className="font-mono text-primary text-[19.8px] md:w-[180px] text-left md:text-right md:flex-shrink-0 self-center">
+          <div className="font-mono text-primary text-1.1em md:w-[180px] text-left md:text-right md:flex-shrink-0 self-center">
             9.02 a.m.
           </div>
           <div className="h-8 w-8 flex m-4 items-center justify-center text-[22.4px] rounded-full bg-white">
@@ -21,7 +21,7 @@ export const TimelineSection = () => {
           </dd>
         </div>
         <div className="flex flex-wrap md:flex-nowrap md:items-center mb-8 text-[18px] last:mb-0">
-          <div className="font-mono text-primary text-[19.8px] md:w-[180px] text-left md:text-right md:flex-shrink-0 self-center">
+          <div className="font-mono text-primary text-1.1em md:w-[180px] text-left md:text-right md:flex-shrink-0 self-center">
             9.04 a.m.
           </div>
           <div className="h-8 w-8 flex m-4 items-center justify-center text-[22.4px] rounded-full bg-white">
@@ -38,7 +38,7 @@ export const TimelineSection = () => {
           </div>
         </div>
         <div className="flex flex-wrap md:flex-nowrap md:items-center mb-8 text-[18px] last:mb-0">
-          <div className="font-mono text-primary text-[19.8px] md:w-[180px] text-left md:text-right md:flex-shrink-0 self-center">
+          <div className="font-mono text-primary text-1.1em md:w-[180px] text-left md:text-right md:flex-shrink-0 self-center">
             9.06 a.m.
           </div>
           <div className="h-8 w-8 flex m-4 items-center justify-center text-[22.4px] rounded-full bg-white">
@@ -52,7 +52,7 @@ export const TimelineSection = () => {
           </div>
         </div>
         <div className="flex flex-wrap md:flex-nowrap md:items-center mb-8 text-[18px] last:mb-0">
-          <div className="font-mono text-primary text-[19.8px] md:w-[180px] text-left md:text-right md:flex-shrink-0 self-center">
+          <div className="font-mono text-primary text-1.1em md:w-[180px] text-left md:text-right md:flex-shrink-0 self-center">
             2 days later...
           </div>
           <div className="h-8 w-8 flex m-4 items-center justify-center text-[22.4px] rounded-full bg-white">
