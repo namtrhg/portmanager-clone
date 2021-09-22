@@ -1,6 +1,6 @@
 export const TimelineSection = () => {
   return (
-    <section className="section p-8 md:max-w-[1064px]">
+    <section className="section p-8 md:max-w-[1064px] md:h-[571px]">
       <h3 className="text-1.3 text-primary leading-1.4 font-medium text-center my-2 pb-8">
         If you’re a developer, this story will sound familiar.
       </h3>
